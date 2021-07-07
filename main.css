@@ -1,0 +1,48 @@
+.defaultText {
+    user-select: none;
+    font-family: cursive, serif;
+    text-align: center;
+}
+
+button {
+    size: 70px;
+    font-size: 15px;
+    border-color: black;
+    padding: 5px 10px 5px 10px;
+    background: #6b361b;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #b8bfba
+}
+
+button:active {
+    background-color: #727278;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+
+canvas {
+    background-color: whitesmoke;
+    border: 1px solid #000000;
+    cursor: pointer;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+canvas:hover {
+    background-color: #f0f0f0
+}
+
+
+
+.clear{
+    position:absolute;
+    left:1110px;
+    top:685px;
+}
